@@ -17,7 +17,7 @@ public class Constant {
 	public static final String SCREENSHOT_FOLDER = ".\\Screenshot\\";
 
 	// Excel path - get input data from excel sheet
-	public static String EXCEL_PATH = ".\\Testcase.xlsx";
+	public static String EXCEL_PATH = "C:\\Users\\Easy solutions\\git\\eDocs\\eResidue_CV_eDocs_Automation\\eResidue_eDocs_TestCase.xlsx";
 
 	// Call web driver
 	public static WebDriver driver = new FirefoxDriver();

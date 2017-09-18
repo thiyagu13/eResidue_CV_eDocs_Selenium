@@ -4,12 +4,15 @@
   <test name="Test">
   
    
-    <parameter name="Test Report" value ="Test Suite Report "/> <!--To access class "createFolderwithTimeStamp" and pass value to the parameter-->
-       
+     <parameter name="Test Report" value ="Test Suite Report "/>   <!--To access class "createFolderwithTimeStamp" and pass value to the parameter-->
+    
+     <parameter name="Email Report" value ="emailable-report.html"/>   <!--Send Customized TestNG Email report to mail id  -->
+     
      <classes> 
-        <class name="com.eResidue.Equipment.Equipment_Name"/>
-    	<class name="com.eResidue.Equipment.Equipment_SF_Area"/> 
-    	<class name="com.eResidue.result.CreateFolderewithTimeStamp"/>
+       <!--  <class name="com.eResidue.Equipment.Equipment_Name"/>
+    	<class name="com.eResidue.Equipment.Equipment_SF_Area"/> -->
+    	<class name="com.eResidue.result.CreateFolderewithTimeStamp"/>  <!-- Class to create folder for each execution -->
+    	<class name="com.eResidue.email.SendMail"/> 					<!--  class to send report to email-->
     </classes> 
     
   </test> <!-- Test -->

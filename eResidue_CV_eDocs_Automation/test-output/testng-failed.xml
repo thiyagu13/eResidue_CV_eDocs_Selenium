@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eResidue.result.CreateFolderewithTimeStamp">
+      <class name="com.eResidue.email.SendMail">
         <methods>
-          <include name="CreateFileWithTimeStamp"/>
+          <include name="execute"/>
         </methods>
-      </class> <!-- com.eResidue.result.CreateFolderewithTimeStamp -->
+      </class> <!-- com.eResidue.email.SendMail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
